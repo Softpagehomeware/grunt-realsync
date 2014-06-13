@@ -1,8 +1,7 @@
 {
   "name": "grunt-realsync",
-  "version": "0.0.0",
-  "description": "",
-  "main": "tasks/realsync.js",
+  "version": "0.0.1",
+  "description": "Task to synchronize two directories.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +9,32 @@
     "type": "git",
     "url": "https://github.com/Softpagehomeware/grunt-realsync.git"
   },
-  "author": "sascha thiel",
-  "license": "MIT",
+  "author": {
+	    "name": "Softpagehomeware",
+	    "url": "http://softpagehomeware.com/"
+  },
+  "readmeFilename": "README.md",
+  "licenses": [{
+	  "type": "MIT",
+	  "url" : "https://github.com/Softpagehomeware/grunt-realsync/blob/master/LICENSE-MIT"
+  }],
   "bugs": {
     "url": "https://github.com/Softpagehomeware/grunt-realsync/issues"
   },
-  "homepage": "https://github.com/Softpagehomeware/grunt-realsync"
+  "homepage": "https://github.com/Softpagehomeware/grunt-realsync",
+  "keywords": [
+      "gruntplugin",
+      "sync",
+      "synchronize",
+      "copy",
+      "delete"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0"
+  },
+  "files": [
+    "tasks",
+    "LICENSE-MIT"
+  ]
 }
